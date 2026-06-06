@@ -1,0 +1,138 @@
+{
+  "summary": {
+    "total_revenue": 4511552.06,
+    "mean_order": 491.62,
+    "median_order": 261.76,
+    "stdev": 607.77,
+    "max_order": 3981.15,
+    "min_order": 8.26,
+    "total_orders": 10000,
+    "returned_orders": 823,
+    "return_rate_pct": 8.23
+  },
+  "by_category": {
+    "Electronics": {
+      "total_revenue": 2404384.76,
+      "orders": 2029,
+      "avg_order": 1185.01,
+      "share_pct": 53.3
+    },
+    "Home & Garden": {
+      "total_revenue": 830645.87,
+      "orders": 1986,
+      "avg_order": 418.25,
+      "share_pct": 18.4
+    },
+    "Sports": {
+      "total_revenue": 670041.46,
+      "orders": 1958,
+      "avg_order": 342.21,
+      "share_pct": 14.9
+    },
+    "Clothing": {
+      "total_revenue": 425801.53,
+      "orders": 2034,
+      "avg_order": 209.34,
+      "share_pct": 9.4
+    },
+    "Books": {
+      "total_revenue": 180678.44,
+      "orders": 1993,
+      "avg_order": 90.66,
+      "share_pct": 4.0
+    }
+  },
+  "monthly_trend": {
+    "Jan": 418543.54,
+    "Feb": 333477.32,
+    "Mar": 361410.36,
+    "Apr": 372839.19,
+    "May": 361447.6,
+    "Jun": 393443.94,
+    "Jul": 399856.36,
+    "Aug": 360304.38,
+    "Sep": 386371.83,
+    "Oct": 372297.83,
+    "Nov": 356293.2,
+    "Dec": 395266.51
+  },
+  "by_region": {
+    "West": {
+      "revenue": 956160.64,
+      "orders": 2020,
+      "avg": 473.35
+    },
+    "South": {
+      "revenue": 922268.22,
+      "orders": 2041,
+      "avg": 451.87
+    },
+    "Central": {
+      "revenue": 893462.98,
+      "orders": 2022,
+      "avg": 441.87
+    },
+    "North": {
+      "revenue": 891031.07,
+      "orders": 1935,
+      "avg": 460.48
+    },
+    "East": {
+      "revenue": 848629.15,
+      "orders": 1982,
+      "avg": 428.17
+    }
+  },
+  "customer_insights": {
+    "unique_customers": 3678,
+    "avg_orders_per_cust": 2.72,
+    "repeat_customers": 2863,
+    "order_frequency": {
+      "1": 815,
+      "2": 1034,
+      "3": 891,
+      "4": 505,
+      "5": 262,
+      "6": 110,
+      "7": 38,
+      "8": 19,
+      "9": 4
+    }
+  },
+  "by_channel": {
+    "Mobile": {
+      "revenue": 1538829.79,
+      "orders": 3365
+    },
+    "In-Store": {
+      "revenue": 1507599.67,
+      "orders": 3329
+    },
+    "Web": {
+      "revenue": 1465122.6,
+      "orders": 3306
+    }
+  },
+  "discount_impact": {
+    "No Discount": {
+      "avg_revenue": 476.63,
+      "count": 4171
+    },
+    "5%": {
+      "avg_revenue": 486.96,
+      "count": 1497
+    },
+    "10%": {
+      "avg_revenue": 450.42,
+      "count": 1423
+    },
+    "15%": {
+      "avg_revenue": 417.11,
+      "count": 1460
+    },
+    "20%": {
+      "avg_revenue": 375.85,
+      "count": 1449
+    }
+  }
+}
