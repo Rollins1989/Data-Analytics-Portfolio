@@ -1,0 +1,88 @@
+{
+  "final_shape": [
+    4800,
+    14
+  ],
+  "null_pct_by_col": {
+    "employee_id": 0.0,
+    "full_name": 0.0,
+    "age": 0.0,
+    "gender": 4.0,
+    "city": 0.0,
+    "department": 4.94,
+    "education": 0.0,
+    "date_of_birth": 80.71,
+    "hire_date": 80.06,
+    "monthly_salary": 4.94,
+    "phone": 27.48,
+    "is_manager": 0.0,
+    "performance_score": 0.0,
+    "email": 5.88
+  },
+  "overall_null_pct": 14.86,
+  "cleaning_steps": [
+    {
+      "step": "remove_duplicates",
+      "issues_found": 200,
+      "issues_fixed": 200,
+      "details": {}
+    },
+    {
+      "step": "clean_strings",
+      "issues_found": 2938,
+      "issues_fixed": 2938,
+      "details": {}
+    },
+    {
+      "step": "standardize_categoricals",
+      "issues_found": 5823,
+      "issues_fixed": 5823,
+      "details": {}
+    },
+    {
+      "step": "parse_dates",
+      "issues_found": 7515,
+      "issues_fixed": 0,
+      "details": {
+        "unparseable": 7515
+      }
+    },
+    {
+      "step": "clean_salary",
+      "issues_found": 211,
+      "issues_fixed": 1,
+      "details": {
+        "currency_symbols_removed": true,
+        "imputed_with_dept_median": true
+      }
+    },
+    {
+      "step": "clean_phones",
+      "issues_found": 1319,
+      "issues_fixed": 237,
+      "details": {
+        "invalid_phones": 1082
+      }
+    },
+    {
+      "step": "clean_booleans",
+      "issues_found": 4800,
+      "issues_fixed": 0,
+      "details": {}
+    },
+    {
+      "step": "fix_numerics",
+      "issues_found": 552,
+      "issues_fixed": 552,
+      "details": {}
+    },
+    {
+      "step": "validate_emails",
+      "issues_found": 150,
+      "issues_fixed": 0,
+      "details": {
+        "invalid_emails_nulled": 150
+      }
+    }
+  ]
+}
