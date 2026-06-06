@@ -1,0 +1,1150 @@
+{
+  "revenue_by_category": [
+    {
+      "category": "Books",
+      "year": "2022",
+      "revenue": 1655359.43,
+      "yoy_growth_pct": null
+    },
+    {
+      "category": "Books",
+      "year": "2023",
+      "revenue": 1648923.79,
+      "yoy_growth_pct": -0.4
+    },
+    {
+      "category": "Clothing",
+      "year": "2022",
+      "revenue": 1645508.49,
+      "yoy_growth_pct": null
+    },
+    {
+      "category": "Clothing",
+      "year": "2023",
+      "revenue": 1727700.44,
+      "yoy_growth_pct": 5.0
+    },
+    {
+      "category": "Electronics",
+      "year": "2022",
+      "revenue": 1713263.28,
+      "yoy_growth_pct": null
+    },
+    {
+      "category": "Electronics",
+      "year": "2023",
+      "revenue": 1684936.66,
+      "yoy_growth_pct": -1.7
+    },
+    {
+      "category": "Home",
+      "year": "2022",
+      "revenue": 1646650.4,
+      "yoy_growth_pct": null
+    },
+    {
+      "category": "Home",
+      "year": "2023",
+      "revenue": 1666101.01,
+      "yoy_growth_pct": 1.2
+    },
+    {
+      "category": "Sports",
+      "year": "2022",
+      "revenue": 1562126.89,
+      "yoy_growth_pct": null
+    },
+    {
+      "category": "Sports",
+      "year": "2023",
+      "revenue": 1583335.33,
+      "yoy_growth_pct": 1.4
+    }
+  ],
+  "customer_ltv": [
+    {
+      "customer_id": 16,
+      "name": "Customer_16",
+      "tier": "Gold",
+      "city": "Delhi",
+      "total_orders": 20,
+      "total_spend": 83328.61,
+      "avg_order_value": 1190.41,
+      "first_order": "2022-03-08",
+      "last_order": "2023-12-15",
+      "spend_rank": 1,
+      "spend_percentile": 100.0
+    },
+    {
+      "customer_id": 289,
+      "name": "Customer_289",
+      "tier": "Silver",
+      "city": "Chennai",
+      "total_orders": 17,
+      "total_spend": 79082.78,
+      "avg_order_value": 1180.34,
+      "first_order": "2022-02-17",
+      "last_order": "2023-12-27",
+      "spend_rank": 2,
+      "spend_percentile": 99.8
+    },
+    {
+      "customer_id": 60,
+      "name": "Customer_60",
+      "tier": "Silver",
+      "city": "Delhi",
+      "total_orders": 15,
+      "total_spend": 72629.28,
+      "avg_order_value": 1452.59,
+      "first_order": "2022-02-22",
+      "last_order": "2023-11-09",
+      "spend_rank": 3,
+      "spend_percentile": 99.6
+    },
+    {
+      "customer_id": 84,
+      "name": "Customer_84",
+      "tier": "Bronze",
+      "city": "Delhi",
+      "total_orders": 19,
+      "total_spend": 70430.76,
+      "avg_order_value": 1051.21,
+      "first_order": "2022-01-15",
+      "last_order": "2023-10-19",
+      "spend_rank": 4,
+      "spend_percentile": 99.4
+    },
+    {
+      "customer_id": 126,
+      "name": "Customer_126",
+      "tier": "Bronze",
+      "city": "Kolkata",
+      "total_orders": 15,
+      "total_spend": 67649.6,
+      "avg_order_value": 1252.77,
+      "first_order": "2022-01-30",
+      "last_order": "2023-11-30",
+      "spend_rank": 5,
+      "spend_percentile": 99.2
+    },
+    {
+      "customer_id": 453,
+      "name": "Customer_453",
+      "tier": "Gold",
+      "city": "Pune",
+      "total_orders": 16,
+      "total_spend": 65796.19,
+      "avg_order_value": 1342.78,
+      "first_order": "2022-01-10",
+      "last_order": "2023-12-26",
+      "spend_rank": 6,
+      "spend_percentile": 99.0
+    },
+    {
+      "customer_id": 436,
+      "name": "Customer_436",
+      "tier": "Bronze",
+      "city": "Pune",
+      "total_orders": 17,
+      "total_spend": 63814.87,
+      "avg_order_value": 1100.26,
+      "first_order": "2022-01-07",
+      "last_order": "2023-11-03",
+      "spend_rank": 7,
+      "spend_percentile": 98.8
+    },
+    {
+      "customer_id": 10,
+      "name": "Customer_10",
+      "tier": "Silver",
+      "city": "Mumbai",
+      "total_orders": 13,
+      "total_spend": 63683.96,
+      "avg_order_value": 1299.67,
+      "first_order": "2022-02-19",
+      "last_order": "2023-11-18",
+      "spend_rank": 8,
+      "spend_percentile": 98.6
+    },
+    {
+      "customer_id": 358,
+      "name": "Customer_358",
+      "tier": "Bronze",
+      "city": "Chennai",
+      "total_orders": 17,
+      "total_spend": 62750.26,
+      "avg_order_value": 1307.3,
+      "first_order": "2022-02-19",
+      "last_order": "2023-12-05",
+      "spend_rank": 9,
+      "spend_percentile": 98.4
+    },
+    {
+      "customer_id": 178,
+      "name": "Customer_178",
+      "tier": "Gold",
+      "city": "Chennai",
+      "total_orders": 17,
+      "total_spend": 62539.89,
+      "avg_order_value": 1158.15,
+      "first_order": "2022-04-26",
+      "last_order": "2023-10-25",
+      "spend_rank": 10,
+      "spend_percentile": 98.2
+    },
+    {
+      "customer_id": 348,
+      "name": "Customer_348",
+      "tier": "Silver",
+      "city": "Delhi",
+      "total_orders": 15,
+      "total_spend": 62249.67,
+      "avg_order_value": 1131.81,
+      "first_order": "2022-01-19",
+      "last_order": "2023-12-18",
+      "spend_rank": 11,
+      "spend_percentile": 98.0
+    },
+    {
+      "customer_id": 372,
+      "name": "Customer_372",
+      "tier": "Silver",
+      "city": "Bangalore",
+      "total_orders": 18,
+      "total_spend": 61765.97,
+      "avg_order_value": 1083.61,
+      "first_order": "2022-02-23",
+      "last_order": "2023-11-09",
+      "spend_rank": 12,
+      "spend_percentile": 97.8
+    },
+    {
+      "customer_id": 99,
+      "name": "Customer_99",
+      "tier": "Silver",
+      "city": "Chennai",
+      "total_orders": 15,
+      "total_spend": 61230.34,
+      "avg_order_value": 1275.63,
+      "first_order": "2022-01-16",
+      "last_order": "2023-10-28",
+      "spend_rank": 13,
+      "spend_percentile": 97.6
+    },
+    {
+      "customer_id": 365,
+      "name": "Customer_365",
+      "tier": "Platinum",
+      "city": "Bangalore",
+      "total_orders": 14,
+      "total_spend": 60830.01,
+      "avg_order_value": 1414.65,
+      "first_order": "2022-05-04",
+      "last_order": "2023-08-15",
+      "spend_rank": 14,
+      "spend_percentile": 97.4
+    },
+    {
+      "customer_id": 248,
+      "name": "Customer_248",
+      "tier": "Bronze",
+      "city": "Delhi",
+      "total_orders": 17,
+      "total_spend": 60691.46,
+      "avg_order_value": 1145.12,
+      "first_order": "2022-01-18",
+      "last_order": "2023-12-30",
+      "spend_rank": 15,
+      "spend_percentile": 97.2
+    },
+    {
+      "customer_id": 224,
+      "name": "Customer_224",
+      "tier": "Bronze",
+      "city": "Delhi",
+      "total_orders": 15,
+      "total_spend": 60368.41,
+      "avg_order_value": 1207.37,
+      "first_order": "2022-02-21",
+      "last_order": "2023-09-06",
+      "spend_rank": 16,
+      "spend_percentile": 97.0
+    },
+    {
+      "customer_id": 469,
+      "name": "Customer_469",
+      "tier": "Bronze",
+      "city": "Chennai",
+      "total_orders": 15,
+      "total_spend": 59847.89,
+      "avg_order_value": 1088.14,
+      "first_order": "2022-02-19",
+      "last_order": "2023-11-12",
+      "spend_rank": 17,
+      "spend_percentile": 96.8
+    },
+    {
+      "customer_id": 107,
+      "name": "Customer_107",
+      "tier": "Gold",
+      "city": "Bangalore",
+      "total_orders": 14,
+      "total_spend": 59818.17,
+      "avg_order_value": 1458.98,
+      "first_order": "2022-05-10",
+      "last_order": "2023-12-26",
+      "spend_rank": 18,
+      "spend_percentile": 96.6
+    },
+    {
+      "customer_id": 145,
+      "name": "Customer_145",
+      "tier": "Bronze",
+      "city": "Hyderabad",
+      "total_orders": 15,
+      "total_spend": 59597.33,
+      "avg_order_value": 1146.1,
+      "first_order": "2022-01-11",
+      "last_order": "2023-05-25",
+      "spend_rank": 19,
+      "spend_percentile": 96.4
+    },
+    {
+      "customer_id": 492,
+      "name": "Customer_492",
+      "tier": "Silver",
+      "city": "Hyderabad",
+      "total_orders": 17,
+      "total_spend": 59146.29,
+      "avg_order_value": 1095.3,
+      "first_order": "2022-01-31",
+      "last_order": "2023-09-30",
+      "spend_rank": 20,
+      "spend_percentile": 96.2
+    }
+  ],
+  "product_profitability": [
+    {
+      "product_id": 53,
+      "name": "Women Product 53",
+      "category": "Clothing",
+      "subcategory": "Women",
+      "times_sold": 99,
+      "units_sold": 200,
+      "revenue": 129251.22,
+      "cogs": 15664.0,
+      "gross_profit": 113587.22,
+      "margin_pct": 87.9
+    },
+    {
+      "product_id": 114,
+      "name": "Self-Help Product 114",
+      "category": "Books",
+      "subcategory": "Self-Help",
+      "times_sold": 88,
+      "units_sold": 164,
+      "revenue": 109722.46,
+      "cogs": 2766.68,
+      "gross_profit": 106955.78,
+      "margin_pct": 97.5
+    },
+    {
+      "product_id": 66,
+      "name": "Kids Product 66",
+      "category": "Clothing",
+      "subcategory": "Kids",
+      "times_sold": 86,
+      "units_sold": 178,
+      "revenue": 111795.64,
+      "cogs": 6075.14,
+      "gross_profit": 105720.5,
+      "margin_pct": 94.6
+    },
+    {
+      "product_id": 115,
+      "name": "Self-Help Product 115",
+      "category": "Books",
+      "subcategory": "Self-Help",
+      "times_sold": 86,
+      "units_sold": 182,
+      "revenue": 101844.29,
+      "cogs": 1714.44,
+      "gross_profit": 100129.85,
+      "margin_pct": 98.3
+    },
+    {
+      "product_id": 116,
+      "name": "Self-Help Product 116",
+      "category": "Books",
+      "subcategory": "Self-Help",
+      "times_sold": 83,
+      "units_sold": 169,
+      "revenue": 100323.64,
+      "cogs": 4175.99,
+      "gross_profit": 96147.65,
+      "margin_pct": 95.8
+    },
+    {
+      "product_id": 95,
+      "name": "Tech Product 95",
+      "category": "Books",
+      "subcategory": "Tech",
+      "times_sold": 77,
+      "units_sold": 161,
+      "revenue": 96537.31,
+      "cogs": 1188.18,
+      "gross_profit": 95349.13,
+      "margin_pct": 98.8
+    },
+    {
+      "product_id": 93,
+      "name": "Tech Product 93",
+      "category": "Books",
+      "subcategory": "Tech",
+      "times_sold": 79,
+      "units_sold": 162,
+      "revenue": 97268.9,
+      "cogs": 2489.94,
+      "gross_profit": 94778.96,
+      "margin_pct": 97.4
+    },
+    {
+      "product_id": 44,
+      "name": "Men Product 44",
+      "category": "Clothing",
+      "subcategory": "Men",
+      "times_sold": 78,
+      "units_sold": 157,
+      "revenue": 99692.68,
+      "cogs": 5119.77,
+      "gross_profit": 94572.91,
+      "margin_pct": 94.9
+    },
+    {
+      "product_id": 100,
+      "name": "Tech Product 100",
+      "category": "Books",
+      "subcategory": "Tech",
+      "times_sold": 80,
+      "units_sold": 163,
+      "revenue": 96964.14,
+      "cogs": 2505.31,
+      "gross_profit": 94458.83,
+      "margin_pct": 97.4
+    },
+    {
+      "product_id": 45,
+      "name": "Men Product 45",
+      "category": "Clothing",
+      "subcategory": "Men",
+      "times_sold": 86,
+      "units_sold": 176,
+      "revenue": 107666.2,
+      "cogs": 13282.72,
+      "gross_profit": 94383.48,
+      "margin_pct": 87.7
+    },
+    {
+      "product_id": 89,
+      "name": "Fiction Product 89",
+      "category": "Books",
+      "subcategory": "Fiction",
+      "times_sold": 72,
+      "units_sold": 155,
+      "revenue": 94604.99,
+      "cogs": 1622.85,
+      "gross_profit": 92982.14,
+      "margin_pct": 98.3
+    },
+    {
+      "product_id": 51,
+      "name": "Men Product 51",
+      "category": "Clothing",
+      "subcategory": "Men",
+      "times_sold": 77,
+      "units_sold": 159,
+      "revenue": 101443.82,
+      "cogs": 9487.53,
+      "gross_profit": 91956.29,
+      "margin_pct": 90.6
+    },
+    {
+      "product_id": 97,
+      "name": "Tech Product 97",
+      "category": "Books",
+      "subcategory": "Tech",
+      "times_sold": 78,
+      "units_sold": 167,
+      "revenue": 95697.85,
+      "cogs": 4048.08,
+      "gross_profit": 91649.76,
+      "margin_pct": 95.8
+    },
+    {
+      "product_id": 59,
+      "name": "Women Product 59",
+      "category": "Clothing",
+      "subcategory": "Women",
+      "times_sold": 90,
+      "units_sold": 166,
+      "revenue": 95038.74,
+      "cogs": 3549.08,
+      "gross_profit": 91489.66,
+      "margin_pct": 96.3
+    },
+    {
+      "product_id": 87,
+      "name": "Fiction Product 87",
+      "category": "Books",
+      "subcategory": "Fiction",
+      "times_sold": 75,
+      "units_sold": 149,
+      "revenue": 92052.95,
+      "cogs": 1297.79,
+      "gross_profit": 90755.16,
+      "margin_pct": 98.6
+    }
+  ],
+  "cohort_retention": [
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-01",
+      "cohort_size": 166,
+      "active_customers": 166,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-02",
+      "cohort_size": 166,
+      "active_customers": 46,
+      "retention_pct": 27.7
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-03",
+      "cohort_size": 166,
+      "active_customers": 57,
+      "retention_pct": 34.3
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-04",
+      "cohort_size": 166,
+      "active_customers": 46,
+      "retention_pct": 27.7
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-05",
+      "cohort_size": 166,
+      "active_customers": 54,
+      "retention_pct": 32.5
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-06",
+      "cohort_size": 166,
+      "active_customers": 51,
+      "retention_pct": 30.7
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-07",
+      "cohort_size": 166,
+      "active_customers": 49,
+      "retention_pct": 29.5
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-08",
+      "cohort_size": 166,
+      "active_customers": 53,
+      "retention_pct": 31.9
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-09",
+      "cohort_size": 166,
+      "active_customers": 53,
+      "retention_pct": 31.9
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-10",
+      "cohort_size": 166,
+      "active_customers": 49,
+      "retention_pct": 29.5
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-11",
+      "cohort_size": 166,
+      "active_customers": 40,
+      "retention_pct": 24.1
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2022-12",
+      "cohort_size": 166,
+      "active_customers": 49,
+      "retention_pct": 29.5
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-01",
+      "cohort_size": 166,
+      "active_customers": 48,
+      "retention_pct": 28.9
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-02",
+      "cohort_size": 166,
+      "active_customers": 40,
+      "retention_pct": 24.1
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-03",
+      "cohort_size": 166,
+      "active_customers": 62,
+      "retention_pct": 37.3
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-04",
+      "cohort_size": 166,
+      "active_customers": 56,
+      "retention_pct": 33.7
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-05",
+      "cohort_size": 166,
+      "active_customers": 54,
+      "retention_pct": 32.5
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-06",
+      "cohort_size": 166,
+      "active_customers": 56,
+      "retention_pct": 33.7
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-07",
+      "cohort_size": 166,
+      "active_customers": 58,
+      "retention_pct": 34.9
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-08",
+      "cohort_size": 166,
+      "active_customers": 49,
+      "retention_pct": 29.5
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-09",
+      "cohort_size": 166,
+      "active_customers": 64,
+      "retention_pct": 38.6
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-10",
+      "cohort_size": 166,
+      "active_customers": 61,
+      "retention_pct": 36.7
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-11",
+      "cohort_size": 166,
+      "active_customers": 44,
+      "retention_pct": 26.5
+    },
+    {
+      "cohort_month": "2022-01",
+      "activity_month": "2023-12",
+      "cohort_size": 166,
+      "active_customers": 58,
+      "retention_pct": 34.9
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-02",
+      "cohort_size": 116,
+      "active_customers": 116,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-03",
+      "cohort_size": 116,
+      "active_customers": 44,
+      "retention_pct": 37.9
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-04",
+      "cohort_size": 116,
+      "active_customers": 37,
+      "retention_pct": 31.9
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-05",
+      "cohort_size": 116,
+      "active_customers": 31,
+      "retention_pct": 26.7
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-06",
+      "cohort_size": 116,
+      "active_customers": 29,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-07",
+      "cohort_size": 116,
+      "active_customers": 43,
+      "retention_pct": 37.1
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-08",
+      "cohort_size": 116,
+      "active_customers": 44,
+      "retention_pct": 37.9
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-09",
+      "cohort_size": 116,
+      "active_customers": 41,
+      "retention_pct": 35.3
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-10",
+      "cohort_size": 116,
+      "active_customers": 35,
+      "retention_pct": 30.2
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-11",
+      "cohort_size": 116,
+      "active_customers": 45,
+      "retention_pct": 38.8
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2022-12",
+      "cohort_size": 116,
+      "active_customers": 47,
+      "retention_pct": 40.5
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-01",
+      "cohort_size": 116,
+      "active_customers": 43,
+      "retention_pct": 37.1
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-02",
+      "cohort_size": 116,
+      "active_customers": 45,
+      "retention_pct": 38.8
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-03",
+      "cohort_size": 116,
+      "active_customers": 33,
+      "retention_pct": 28.4
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-04",
+      "cohort_size": 116,
+      "active_customers": 30,
+      "retention_pct": 25.9
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-05",
+      "cohort_size": 116,
+      "active_customers": 36,
+      "retention_pct": 31.0
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-06",
+      "cohort_size": 116,
+      "active_customers": 33,
+      "retention_pct": 28.4
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-07",
+      "cohort_size": 116,
+      "active_customers": 43,
+      "retention_pct": 37.1
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-08",
+      "cohort_size": 116,
+      "active_customers": 35,
+      "retention_pct": 30.2
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-09",
+      "cohort_size": 116,
+      "active_customers": 40,
+      "retention_pct": 34.5
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-10",
+      "cohort_size": 116,
+      "active_customers": 35,
+      "retention_pct": 30.2
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-11",
+      "cohort_size": 116,
+      "active_customers": 40,
+      "retention_pct": 34.5
+    },
+    {
+      "cohort_month": "2022-02",
+      "activity_month": "2023-12",
+      "cohort_size": 116,
+      "active_customers": 29,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2022-03",
+      "cohort_size": 67,
+      "active_customers": 67,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2022-04",
+      "cohort_size": 67,
+      "active_customers": 18,
+      "retention_pct": 26.9
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2022-05",
+      "cohort_size": 67,
+      "active_customers": 22,
+      "retention_pct": 32.8
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2022-06",
+      "cohort_size": 67,
+      "active_customers": 23,
+      "retention_pct": 34.3
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2022-07",
+      "cohort_size": 67,
+      "active_customers": 24,
+      "retention_pct": 35.8
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2022-08",
+      "cohort_size": 67,
+      "active_customers": 28,
+      "retention_pct": 41.8
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2022-09",
+      "cohort_size": 67,
+      "active_customers": 24,
+      "retention_pct": 35.8
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2022-10",
+      "cohort_size": 67,
+      "active_customers": 25,
+      "retention_pct": 37.3
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2022-11",
+      "cohort_size": 67,
+      "active_customers": 21,
+      "retention_pct": 31.3
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2022-12",
+      "cohort_size": 67,
+      "active_customers": 28,
+      "retention_pct": 41.8
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2023-01",
+      "cohort_size": 67,
+      "active_customers": 27,
+      "retention_pct": 40.3
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2023-02",
+      "cohort_size": 67,
+      "active_customers": 18,
+      "retention_pct": 26.9
+    },
+    {
+      "cohort_month": "2022-03",
+      "activity_month": "2023-03",
+      "cohort_size": 67,
+      "active_customers": 17,
+      "retention_pct": 25.4
+    }
+  ],
+  "inventory_alerts": [
+    {
+      "product_id": 1,
+      "name": "Phones Product 1",
+      "category": "Electronics",
+      "stock_qty": 102,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 2,
+      "name": "Phones Product 2",
+      "category": "Electronics",
+      "stock_qty": 188,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 3,
+      "name": "Phones Product 3",
+      "category": "Electronics",
+      "stock_qty": 293,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 4,
+      "name": "Phones Product 4",
+      "category": "Electronics",
+      "stock_qty": 294,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 5,
+      "name": "Phones Product 5",
+      "category": "Electronics",
+      "stock_qty": 38,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 6,
+      "name": "Phones Product 6",
+      "category": "Electronics",
+      "stock_qty": 285,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 7,
+      "name": "Phones Product 7",
+      "category": "Electronics",
+      "stock_qty": 478,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 8,
+      "name": "Phones Product 8",
+      "category": "Electronics",
+      "stock_qty": 445,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 9,
+      "name": "Phones Product 9",
+      "category": "Electronics",
+      "stock_qty": 99,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 10,
+      "name": "Phones Product 10",
+      "category": "Electronics",
+      "stock_qty": 121,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 11,
+      "name": "Phones Product 11",
+      "category": "Electronics",
+      "stock_qty": 417,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 12,
+      "name": "Phones Product 12",
+      "category": "Electronics",
+      "stock_qty": 500,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 13,
+      "name": "Phones Product 13",
+      "category": "Electronics",
+      "stock_qty": 343,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 14,
+      "name": "Laptops Product 14",
+      "category": "Electronics",
+      "stock_qty": 495,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 15,
+      "name": "Laptops Product 15",
+      "category": "Electronics",
+      "stock_qty": 16,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 16,
+      "name": "Laptops Product 16",
+      "category": "Electronics",
+      "stock_qty": 136,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 17,
+      "name": "Laptops Product 17",
+      "category": "Electronics",
+      "stock_qty": 448,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 18,
+      "name": "Laptops Product 18",
+      "category": "Electronics",
+      "stock_qty": 22,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 19,
+      "name": "Laptops Product 19",
+      "category": "Electronics",
+      "stock_qty": 11,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    },
+    {
+      "product_id": 20,
+      "name": "Laptops Product 20",
+      "category": "Electronics",
+      "stock_qty": 210,
+      "sold_30d": 0,
+      "daily_velocity": 0.0,
+      "stock_status": "OK"
+    }
+  ],
+  "channel_funnel": [
+    {
+      "channel": "Store",
+      "total_orders": 2037,
+      "completed": 1202,
+      "returned": 415,
+      "cancelled": 420,
+      "completion_rate": 59.0,
+      "return_rate": 20.4
+    },
+    {
+      "channel": "Mobile",
+      "total_orders": 2023,
+      "completed": 1225,
+      "returned": 389,
+      "cancelled": 409,
+      "completion_rate": 60.6,
+      "return_rate": 19.2
+    },
+    {
+      "channel": "Partner",
+      "total_orders": 1972,
+      "completed": 1151,
+      "returned": 409,
+      "cancelled": 412,
+      "completion_rate": 58.4,
+      "return_rate": 20.7
+    },
+    {
+      "channel": "Web",
+      "total_orders": 1968,
+      "completed": 1211,
+      "returned": 383,
+      "cancelled": 374,
+      "completion_rate": 61.5,
+      "return_rate": 19.5
+    }
+  ]
+}
