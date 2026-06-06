@@ -1,0 +1,24 @@
+{
+  "overall_attrition_pct": 21.52,
+  "total_employees": 5000,
+  "data_quality_issues": {
+    "invalid_age": 50,
+    "invalid_satisfaction": 50,
+    "missing_income": 50,
+    "duplicates_removed": 0
+  },
+  "high_risk_profile": {
+    "count": 647,
+    "pct_of_workforce": 12.9,
+    "attrition_rate_pct": 30.8,
+    "avg_salary": 14879.87,
+    "top_dept": "Marketing"
+  },
+  "top_correlations": {
+    "JobSatisfaction": -0.1307,
+    "EngagementScore": -0.1277,
+    "WorkLifeBalance": -0.1037,
+    "YearsSinceLastPromotion": 0.0548,
+    "OverTime": 0.0491
+  }
+}
