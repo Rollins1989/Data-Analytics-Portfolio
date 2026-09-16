@@ -28,7 +28,15 @@ Analyze e-commerce transactions to understand revenue drivers, customer behavior
 
 ## Business Interpretation
 
-The analysis demonstrates how transaction-level data can be converted into revenue, customer, channel, regional, and return KPIs that support commercial decision-making. Because the dataset is synthetic, the findings are examples of analytical technique rather than claims about a real business.
+The analysis converts transaction-level data into revenue, customer, channel, regional, and return KPIs that could support commercial decision-making. Because the dataset is synthetic, the findings demonstrate analytical technique rather than real business performance.
+
+## Visuals
+
+![Revenue by Category](outputs/revenue_by_category.png)
+
+![Revenue by Region](outputs/revenue_by_region.png)
+
+![Revenue by Channel](outputs/revenue_by_channel.png)
 
 ## Technical Workflow
 
@@ -43,25 +51,22 @@ The analysis demonstrates how transaction-level data can be converted into reven
 
 **Python · Pandas · Matplotlib · Jupyter Notebook**
 
-## Files
+## Project Structure
 
-- `ecommerce_sales_analysis.ipynb` — exploratory analysis notebook
-- `ecommerce_analysis.py` — reproducible analysis script
-- `sales_data.xls` — source dataset
-- `sales_report.json` — summary metrics
-- `revenue_by_category.png` — category revenue visualization
-- `revenue_by_region.png` — regional revenue visualization
-- `revenue_by_channel.png` — channel revenue visualization
+- `notebooks/ecommerce_sales_analysis.ipynb` — exploratory analysis
+- `src/ecommerce_analysis.py` — reproducible analysis script
+- `data/sales_data.xls` — source dataset
+- `outputs/` — charts, CSV summaries, and JSON report
 
 ## How to Run
 
-From the project directory:
+From `01-ecommerce-sales-analysis/`:
 
 ```bash
-python ecommerce_analysis.py
+python src/ecommerce_analysis.py
 ```
 
-Or open `ecommerce_sales_analysis.ipynb` in Jupyter Notebook/JupyterLab.
+Or open `notebooks/ecommerce_sales_analysis.ipynb` in Jupyter Notebook/JupyterLab.
 
 ## Skills Demonstrated
 
