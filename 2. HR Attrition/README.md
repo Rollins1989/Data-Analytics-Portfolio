@@ -19,11 +19,11 @@ Analyze employee attrition patterns to understand where turnover is concentrated
 - **5,000 employees** analyzed
 - **21.52% overall attrition**
 - A higher-risk segment contained **647 employees** with **30.8% attrition** in the original analysis
-- Job satisfaction, engagement, and work-life balance showed negative relationships with attrition in the analysis
+- Job satisfaction, engagement, and work-life balance showed negative relationships with attrition
 
 ## Business Interpretation
 
-The project demonstrates how HR data can be segmented into actionable workforce KPIs and risk patterns. Correlation is used as an analytical signal, not evidence that a variable directly causes employee attrition.
+The project demonstrates how HR data can be segmented into workforce KPIs and risk patterns. Correlation is used as an analytical signal, not evidence that a variable directly causes employee attrition.
 
 ## Technical Workflow
 
@@ -32,7 +32,7 @@ The project demonstrates how HR data can be segmented into actionable workforce 
 3. Compare attrition across departments and segments
 4. Calculate correlations for numeric variables
 5. Visualize important relationships
-6. Interpret results with explicit correlation-vs-causation caveats
+6. Interpret results with correlation-vs-causation caveats
 
 ## Tools
 
@@ -43,7 +43,7 @@ The project demonstrates how HR data can be segmented into actionable workforce 
 - `hr_attrition_analysis.ipynb` — analysis notebook
 - `hr_cleaned.xls` — cleaned dataset
 - `hr_summary.json` — summary metrics
-- `Project 2_output (1).png` — analysis visualization
+- `attrition_analysis.png` — analysis visualization
 
 ## How to Run
 
