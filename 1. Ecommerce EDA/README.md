@@ -1,21 +1,21 @@
 # E-commerce Sales Analysis
 
-## Overview
+## Business Objective
 
-A reproducible e-commerce exploratory analysis covering revenue, customer behavior, sales channels, regional performance, returns, and discount impact.
+Analyze e-commerce transactions to understand revenue drivers, customer behavior, channel performance, regional performance, returns, and discount patterns.
 
-**Data note:** the transaction dataset is synthetic and is used to demonstrate an end-to-end analytics workflow. The results should not be presented as real company performance.
+> **Data note:** The transaction dataset is synthetic and is used to demonstrate an end-to-end analytics workflow. Results must not be presented as real company performance.
 
-## Business Questions
+## Key Questions
 
 - Which product categories contribute the most revenue?
-- How does revenue vary over time and across regions?
-- Which sales channels perform best?
+- How does revenue vary over time, region, and sales channel?
+- Which channels and regions generate the most revenue?
 - What is the return rate?
-- How does discount level relate to average order revenue?
+- How does discount level relate to order revenue?
 - How frequently do customers purchase?
 
-## Key Results
+## Key Findings
 
 - **10,000 orders** analyzed
 - **$4.51M total revenue** in the supplied analysis output
@@ -26,39 +26,42 @@ A reproducible e-commerce exploratory analysis covering revenue, customer behavi
 - Mobile was the highest-revenue channel
 - West was the highest-revenue region
 
+## Business Interpretation
+
+The analysis demonstrates how transaction-level data can be converted into revenue, customer, channel, regional, and return KPIs that support commercial decision-making. Because the dataset is synthetic, the findings are examples of analytical technique rather than claims about a real business.
+
 ## Technical Workflow
 
 1. Load and validate transaction data with Pandas
-2. Parse order dates and prepare analytical fields
+2. Parse dates and create analytical fields
 3. Calculate revenue and order KPIs
-4. Analyze category, region, channel, customer, and discount segments
-5. Export summary tables and charts
+4. Segment results by category, region, channel, customer, and discount
+5. Generate summary tables and visualizations
+6. Export reproducible results
 
 ## Tools
 
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
+**Python · Pandas · Matplotlib · Jupyter Notebook**
 
 ## Files
 
-- `Project 1.ipynb` — original exploratory notebook
-- `ecommerce_analysis.py` — reproducible Pandas analysis script
+- `ecommerce_sales_analysis.ipynb` — exploratory analysis notebook
+- `ecommerce_analysis.py` — reproducible analysis script
 - `sales_data.xls` — source dataset
-- `sales_report.json` — generated summary metrics
-- `Project 1_output*.png` — existing analysis outputs
-- `outputs/` — generated tables and charts when the script is run
+- `sales_report.json` — summary metrics
+- `revenue_by_category.png` — category revenue visualization
+- `revenue_by_region.png` — regional revenue visualization
+- `revenue_by_channel.png` — channel revenue visualization
 
 ## How to Run
 
-Install the repository dependencies, then run:
+From the project directory:
 
 ```bash
 python ecommerce_analysis.py
 ```
 
-Or open `Project 1.ipynb` in Jupyter Notebook/JupyterLab.
+Or open `ecommerce_sales_analysis.ipynb` in Jupyter Notebook/JupyterLab.
 
 ## Skills Demonstrated
 
