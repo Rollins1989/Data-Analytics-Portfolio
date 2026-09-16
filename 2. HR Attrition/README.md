@@ -21,6 +21,10 @@ Analyze employee attrition patterns to understand where turnover is concentrated
 - A higher-risk segment contained **647 employees** with **30.8% attrition** in the original analysis
 - Job satisfaction, engagement, and work-life balance showed negative relationships with attrition
 
+## Visual
+
+![HR Attrition Analysis](outputs/attrition_analysis.png)
+
 ## Business Interpretation
 
 The project demonstrates how HR data can be segmented into workforce KPIs and risk patterns. Correlation is used as an analytical signal, not evidence that a variable directly causes employee attrition.
@@ -38,16 +42,16 @@ The project demonstrates how HR data can be segmented into workforce KPIs and ri
 
 **Python · Pandas · NumPy · Matplotlib · Jupyter Notebook**
 
-## Files
+## Project Structure
 
-- `hr_attrition_analysis.ipynb` — analysis notebook
-- `hr_cleaned.xls` — cleaned dataset
-- `hr_summary.json` — summary metrics
-- `attrition_analysis.png` — analysis visualization
+- `notebooks/hr_attrition_analysis.ipynb` — analysis notebook
+- `data/hr_cleaned.xls` — cleaned dataset
+- `outputs/hr_summary.json` — summary metrics
+- `outputs/attrition_analysis.png` — analysis visualization
 
 ## How to Run
 
-Open `hr_attrition_analysis.ipynb` in Jupyter Notebook or JupyterLab and run the cells from top to bottom.
+Open `notebooks/hr_attrition_analysis.ipynb` in Jupyter Notebook or JupyterLab and run the cells from top to bottom.
 
 ## Skills Demonstrated
 
