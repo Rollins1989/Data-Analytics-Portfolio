@@ -1,52 +1,76 @@
 # Data Analytics Portfolio
 
-A practical portfolio of **data analysis, business intelligence, SQL, Python, data cleaning, and dashboard projects**.
+A recruiter-ready portfolio of **Python, SQL, data analysis, business intelligence, and dashboard projects** focused on turning raw data into measurable business insights.
 
-The repository is being built around a simple standard: **raw data → analysis → business insight → clear deliverable**.
+> **Portfolio principle:** Raw data → clean analysis → business insight → clear deliverable.
 
-## Projects
+## Featured Projects
 
-| # | Project | Focus | Tools |
-|---|---|---|---|
-| 1 | [E-commerce Sales Analysis](./1.%20Ecommerce%20EDA/) | Revenue, customers, channels, regions, returns, discounts | Python, Pandas, Matplotlib |
-| 2 | [HR Employee Attrition](./2.%20HR%20Attrition/) | Attrition patterns, workforce segmentation, correlations | Python, Pandas, NumPy, Matplotlib |
-| 3 | [Retail Business Intelligence](./3.%20Retail%20SQL/) | Revenue, customer value, profitability, SQL KPIs | SQL, SQLite, Python, Pandas |
-| 4 | [Data Cleaning Pipeline](./4.%20Data%20Cleaning/) | Data quality, validation, transformation | Python, Pandas |
-| 5 | [Global Vaccination Dashboard](./5.%20Vaccination%20Dashboard/) | Global vaccination trends and visualization | Python, Pandas, Jupyter |
-| 6 | [Amazon PPC Analytics](./6%20Amazon%20PPC%20Analytics/) | Campaign performance, spend allocation, trends | Python, HTML, JavaScript, Chart.js |
+### 1. Retail Business Intelligence
+**SQL + Python + SQLite**
 
-## Current Technical Stack
+Analyzes revenue, customer value, profitability, and business KPIs using SQL, CTEs, window functions, aggregation, and ranking.
+
+→ [Open project](./3.%20Retail%20SQL/)
+
+### 2. Amazon PPC Analytics
+**Python + HTML + JavaScript + Chart.js**
+
+Analyzes advertising spend, campaign performance, efficiency metrics, and trends to support budget and campaign decisions.
+
+→ [Open project](./6%20Amazon%20PPC%20Analytics/)
+
+### 3. E-commerce Sales Analysis
+**Python + Pandas + Matplotlib**
+
+Explores revenue, customers, channels, regions, returns, discounts, and purchasing behavior using a reproducible analysis workflow.
+
+→ [Open project](./1.%20Ecommerce%20EDA/)
+
+## Additional Projects
+
+| Project | Focus | Tools |
+|---|---|---|
+| [HR Employee Attrition](./2.%20HR%20Attrition/) | Attrition patterns, workforce segmentation, correlations | Python, Pandas, NumPy, Matplotlib |
+| [Data Cleaning Pipeline](./4.%20Data%20Cleaning/) | Data quality, validation, transformation | Python, Pandas |
+| [Global Vaccination Dashboard](./5.%20Vaccination%20Dashboard/) | Global vaccination trends and visualization | Python, Pandas, Jupyter |
+
+## Technical Stack
 
 - **Python:** Pandas, NumPy, Matplotlib
 - **SQL:** SQLite, CTEs, window functions, aggregation, ranking
-- **Visualization:** Matplotlib, HTML/JavaScript dashboards
-- **Workflow:** Jupyter Notebook, reproducible scripts, structured reporting
+- **Visualization:** Matplotlib, HTML, JavaScript, Chart.js
+- **Workflow:** Jupyter Notebook, reproducible Python scripts, structured reporting
+- **Data formats:** CSV, Excel, JSON, SQLite
 
-## What I Practice
+## What This Portfolio Demonstrates
 
-- Exploratory data analysis
+- Exploratory data analysis (EDA)
 - KPI and trend analysis
 - Customer and workforce segmentation
 - Data cleaning and validation
 - SQL business analysis
-- Profitability and revenue analysis
+- Revenue and profitability analysis
+- Marketing and campaign analytics
 - Dashboard-oriented reporting
-- Translating analytical results into business recommendations
+- Reproducible analytical workflows
+- Translating analytical findings into business recommendations
 
 ## Repository Standards
 
-Projects are being progressively refactored to include:
+Each project is maintained with a consistent professional structure:
 
-- Clear business questions
-- Reproducible analysis
-- Documented assumptions
-- Honest data provenance
-- Meaningful output files
-- Portfolio-ready documentation
+- Clear business problem and questions
+- Documented data source and assumptions
+- Reproducible analysis where applicable
+- Key metrics and findings
+- Visual outputs
+- Business interpretation and recommendations
+- Clear instructions for running the project
 
-Synthetic datasets are explicitly identified where used. Results from synthetic data are **demonstrations of analytical technique, not claims about real companies**.
+Synthetic datasets are explicitly identified where used. Results from synthetic data are **demonstrations of analytical technique, not claims about real companies or organizations**.
 
-## Structure
+## Repository Structure
 
 ```text
 Data-Analytics-Portfolio/
@@ -60,6 +84,16 @@ Data-Analytics-Portfolio/
 ├── .gitignore
 └── README.md
 ```
+
+## Running the Projects
+
+Install the shared Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Then follow the **How to Run** section inside the relevant project README.
 
 ## Author
 
