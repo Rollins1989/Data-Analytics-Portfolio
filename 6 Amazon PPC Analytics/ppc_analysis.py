@@ -7,14 +7,15 @@ spend-allocation, and weekly-trend datasets used by the dashboard.
 from pathlib import Path
 import pandas as pd
 
-BASE_DIR = Path(__file__).parent
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = BASE_DIR / "data"
 
 
 def load_data():
     """Load the three portfolio input files."""
-    campaign = pd.read_excel(BASE_DIR / "campaign_performance.xls")
-    spend = pd.read_excel(BASE_DIR / "spend_allocation.xls")
-    weekly = pd.read_excel(BASE_DIR / "weekly_trends.xls")
+    campaign = pd.read_excel(DATA_DIR / "campaign_performance.xls")
+    spend = pd.read_excel(DATA_DIR / "spend_allocation.xls")
+    weekly = pd.read_excel(DATA_DIR / "weekly_trends.xls")
     return campaign, spend, weekly
 
 
