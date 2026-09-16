@@ -1,8 +1,8 @@
 # Data Cleaning Pipeline
 
-## Overview
+## Business Objective
 
-A structured data-cleaning workflow focused on identifying and correcting common data-quality problems before analysis.
+Build an auditable data-cleaning workflow that identifies, validates, and corrects common data-quality issues before analysis.
 
 ## Data Quality Checks
 
@@ -21,25 +21,34 @@ The pipeline addresses:
 
 The cleaned dataset contains **4,800 rows and 14 columns** after duplicate removal and transformation steps.
 
-The generated report records the issues detected and the fixes applied at each stage, making the cleaning process auditable rather than treating cleaning as an undocumented preprocessing step.
+The generated report records detected issues and applied fixes, making the preprocessing workflow auditable rather than treating cleaning as an undocumented step.
+
+## Business Interpretation
+
+Reliable analytics depends on reliable inputs. This project demonstrates a repeatable approach to profiling, validating, cleaning, and documenting messy operational data before downstream analysis.
 
 ## Tools
 
-- Python
-- Pandas
-- Jupyter Notebook
+**Python · Pandas · Jupyter Notebook**
 
 ## Files
 
-- `Project 4.ipynb` — cleaning workflow
+- `data_cleaning_pipeline.ipynb` — cleaning workflow
+- `data_cleaning_pipeline.py` — reusable cleaning script
 - `employees_clean.xls` — cleaned dataset
 - `cleaning_report.json` — data-quality report
-- `Project 4_output*.png` — output visualization
+- `data_quality_output.png` — output visualization
+
+## How to Run
+
+From the project directory:
+
+```bash
+python data_cleaning_pipeline.py
+```
+
+Or open `data_cleaning_pipeline.ipynb` in Jupyter Notebook/JupyterLab.
 
 ## Skills Demonstrated
 
 Data profiling, missing-value analysis, duplicate handling, categorical standardization, validation, imputation, transformation, and quality reporting.
-
-## How to Run
-
-Open `Project 4.ipynb` in Jupyter Notebook or JupyterLab and run the cells from top to bottom.
