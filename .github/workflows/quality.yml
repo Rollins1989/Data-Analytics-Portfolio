@@ -40,6 +40,7 @@ jobs:
           import json
           from pathlib import Path
           import nbformat
+          from nbformat import validator
 
           projects = [
               Path("01-ecommerce-sales-analysis"),
@@ -65,6 +66,10 @@ jobs:
                       with notebook.open(encoding="utf-8") as handle:
                           data = json.load(handle)
                       assert data.get("nbformat") == 4, f"Invalid nbformat: {data.get('nbformat')}"
+
+                      # Normalize legacy notebooks in memory so current/future nbformat
+                      # validation does not fail on missing cell IDs.
+                      _, data = validator.normalize(data)
                       nbformat.validate(data)
                   except Exception as exc:
                       raise RuntimeError(
