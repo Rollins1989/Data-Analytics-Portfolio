@@ -9,26 +9,37 @@ on:
 jobs:
   quality:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
+          cache: pip
 
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
 
       - name: Compile Python source files
-        run: python -m compileall -q 01-ecommerce-sales-analysis 02-hr-employee-attrition 03-retail-business-intelligence 04-data-cleaning-pipeline 05-global-vaccination-dashboard 06-amazon-ppc-analytics
+        run: |
+          python -m compileall -q \
+            01-ecommerce-sales-analysis \
+            02-hr-employee-attrition \
+            03-retail-business-intelligence \
+            04-data-cleaning-pipeline \
+            05-global-vaccination-dashboard \
+            06-amazon-ppc-analytics
 
       - name: Validate notebooks and repository paths
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
+          import nbformat
 
           projects = [
               Path("01-ecommerce-sales-analysis"),
@@ -40,13 +51,25 @@ jobs:
           ]
 
           for project in projects:
-              assert (project / "README.md").exists(), f"Missing README: {project}"
-              notebooks = list((project / "notebooks").glob("*.ipynb"))
-              assert notebooks, f"No notebook found: {project}"
-              for notebook in notebooks:
-                  with notebook.open(encoding="utf-8") as handle:
-                      data = json.load(handle)
-                  assert data.get("nbformat") == 4, f"Invalid notebook format: {notebook}"
+              readme = project / "README.md"
+              notebooks_dir = project / "notebooks"
+              assert readme.is_file(), f"Missing README: {readme}"
+              assert notebooks_dir.is_dir(), f"Missing notebooks directory: {notebooks_dir}"
 
-          print("Repository structure and notebook JSON validation passed.")
+              notebooks = sorted(notebooks_dir.glob("*.ipynb"))
+              assert notebooks, f"No notebook found: {notebooks_dir}"
+
+              for notebook in notebooks:
+                  print(f"Validating notebook: {notebook}")
+                  try:
+                      with notebook.open(encoding="utf-8") as handle:
+                          data = json.load(handle)
+                      assert data.get("nbformat") == 4, f"Invalid nbformat: {data.get('nbformat')}"
+                      nbformat.validate(data)
+                  except Exception as exc:
+                      raise RuntimeError(
+                          f"Notebook validation failed for {notebook}: {type(exc).__name__}: {exc}"
+                      ) from exc
+
+          print("Repository structure and notebook validation passed.")
           PY
