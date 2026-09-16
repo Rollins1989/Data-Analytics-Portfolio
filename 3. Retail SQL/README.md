@@ -22,7 +22,7 @@ Use SQL and Python to analyze retail revenue, customer value, product profitabil
 
 ## Business Interpretation
 
-The project demonstrates how SQL can move beyond simple querying into KPI construction, customer analysis, profitability analysis, and trend reporting that can support commercial decision-making.
+The project demonstrates how SQL can move beyond simple querying into KPI construction, customer analysis, profitability analysis, and trend reporting that supports commercial decision-making.
 
 ## Technical Workflow
 
@@ -43,7 +43,7 @@ The project demonstrates how SQL can move beyond simple querying into KPI constr
 - `retail_analysis.sql` — SQL analysis queries
 - `retail_analytics.db` — SQLite database
 - `sql_results.json` — generated analysis results
-- `Project 3_output (1).png` — analysis visualization
+- `retail_business_intelligence.png` — analysis visualization
 
 ## How to Run
 
