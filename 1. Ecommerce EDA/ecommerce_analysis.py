@@ -10,8 +10,8 @@ import json
 import pandas as pd
 import matplotlib.pyplot as plt
 
-BASE_DIR = Path(__file__).parent
-DATA_FILE = BASE_DIR / "sales_data.xls"
+BASE_DIR = Path(__file__).resolve().parents[1]
+DATA_FILE = BASE_DIR / "data" / "sales_data.xls"
 OUTPUT_DIR = BASE_DIR / "outputs"
 
 
