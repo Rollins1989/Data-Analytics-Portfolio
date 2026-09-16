@@ -2,9 +2,9 @@
 
 ## Business Objective
 
-Analyze employee attrition patterns to understand where turnover is concentrated and how workforce characteristics relate to attrition.
+Analyze employee attrition patterns to understand where turnover is concentrated and which workforce characteristics are associated with attrition.
 
-> **Data note:** The dataset is synthetic and is used for portfolio practice. It is not a real company's employee dataset.
+> **Data note:** The dataset is synthetic and generated for portfolio practice. It is not a real company's employee dataset.
 
 ## Key Questions
 
@@ -17,7 +17,7 @@ Analyze employee attrition patterns to understand where turnover is concentrated
 ## Key Findings
 
 - **5,000 employees** analyzed
-- **21.52% overall attrition**
+- **21.52% overall attrition** in the supplied analysis output
 - A higher-risk segment contained **647 employees** with **30.8% attrition** in the original analysis
 - Job satisfaction, engagement, and work-life balance showed negative relationships with attrition
 
@@ -31,10 +31,10 @@ The project demonstrates how HR data can be segmented into workforce KPIs and ri
 
 ## Technical Workflow
 
-1. Validate the synthetic workforce dataset
+1. Generate and validate the synthetic workforce dataset
 2. Calculate workforce KPIs
 3. Compare attrition across departments and segments
-4. Calculate correlations for numeric variables
+4. Calculate Pearson correlations for numeric variables
 5. Visualize important relationships
 6. Interpret results with correlation-vs-causation caveats
 
@@ -45,14 +45,24 @@ The project demonstrates how HR data can be segmented into workforce KPIs and ri
 ## Project Structure
 
 - `notebooks/hr_attrition_analysis.ipynb` — analysis notebook
-- `data/hr_cleaned.xls` — cleaned dataset
+- `data/hr_cleaned.xls` — cleaned dataset artifact
 - `outputs/hr_summary.json` — summary metrics
 - `outputs/attrition_analysis.png` — analysis visualization
 
 ## How to Run
 
-Open `notebooks/hr_attrition_analysis.ipynb` in Jupyter Notebook or JupyterLab and run the cells from top to bottom.
+From `02-hr-employee-attrition/`:
+
+```bash
+jupyter notebook notebooks/hr_attrition_analysis.ipynb
+```
+
+The notebook generates the synthetic data with a fixed random seed, making the analysis reproducible. Because the notebook and supplied output artifact are generated independently, displayed headline values should be treated as portfolio demonstration results rather than production HR metrics.
+
+## Limitations
+
+The data-generating process intentionally encodes relationships between selected workforce variables and attrition. Therefore, observed correlations reflect the synthetic construction and should not be generalized to real employees or organizations.
 
 ## Skills Demonstrated
 
-Data preparation, KPI analysis, groupby analysis, workforce segmentation, correlation analysis, visualization, and responsible interpretation of analytical results.
+Data preparation, KPI analysis, groupby analysis, workforce segmentation, correlation analysis, visualization, reproducible synthetic-data generation, and responsible interpretation of analytical results.
