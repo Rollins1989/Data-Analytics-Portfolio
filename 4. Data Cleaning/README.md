@@ -17,11 +17,23 @@ The pipeline addresses:
 - Numeric inconsistencies
 - Email validation
 
-## Output
+## Quality Results
 
-The cleaned dataset contains **4,800 rows and 14 columns** after duplicate removal and transformation steps.
+The supplied cleaning report contains **5,000 source rows** reduced to **4,800 final rows**, with **200 duplicate rows removed**. The report records **14.86% overall null values** in the resulting dataset and separately tracks issues detected and fixes applied across the cleaning stages. citeturn29file0
 
-The generated report records detected issues and applied fixes, making the preprocessing workflow auditable rather than treating cleaning as an undocumented step.
+Examples from the audit report:
+
+- **2,938** string issues detected and fixed
+- **5,823** categorical-standardization issues detected and fixed
+- **552** numeric issues detected and fixed
+- **237** phone issues fixed; **1,082** invalid phones remained after validation
+- **150** invalid emails were nulled rather than silently retained
+
+These figures are taken from the generated audit report; detection counts and fix counts are intentionally kept separate because not every detected issue was automatically repairable. citeturn29file0
+
+## Visual
+
+![Data Quality Output](outputs/data_quality_output.png)
 
 ## Business Interpretation
 
@@ -31,23 +43,23 @@ Reliable analytics depends on reliable inputs. This project demonstrates a repea
 
 **Python · Pandas · Jupyter Notebook**
 
-## Files
+## Project Structure
 
-- `data_cleaning_pipeline.ipynb` — cleaning workflow
-- `data_cleaning_pipeline.py` — reusable cleaning script
-- `employees_clean.xls` — cleaned dataset
-- `cleaning_report.json` — data-quality report
-- `data_quality_output.png` — output visualization
+- `notebooks/data_cleaning_pipeline.ipynb` — cleaning workflow
+- `src/data_cleaning_pipeline.py` — reusable cleaning script
+- `data/employees_clean.xls` — cleaned dataset
+- `outputs/cleaning_report.json` — data-quality audit report
+- `outputs/data_quality_output.png` — output visualization
 
 ## How to Run
 
-From the project directory:
+From `04-data-cleaning-pipeline/`:
 
 ```bash
-python data_cleaning_pipeline.py
+python src/data_cleaning_pipeline.py
 ```
 
-Or open `data_cleaning_pipeline.ipynb` in Jupyter Notebook/JupyterLab.
+Or open `notebooks/data_cleaning_pipeline.ipynb` in Jupyter Notebook/JupyterLab.
 
 ## Skills Demonstrated
 
