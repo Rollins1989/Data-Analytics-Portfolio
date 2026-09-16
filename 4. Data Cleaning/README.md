@@ -19,7 +19,7 @@ The pipeline addresses:
 
 ## Quality Results
 
-The supplied cleaning report contains **5,000 source rows** reduced to **4,800 final rows**, with **200 duplicate rows removed**. The report records **14.86% overall null values** in the resulting dataset and separately tracks issues detected and fixes applied across the cleaning stages. citeturn29file0
+The supplied cleaning report contains **5,000 source rows** reduced to **4,800 final rows**, with **200 duplicate rows removed**. The report records **14.86% overall null values** and separately tracks issues detected and fixes applied across the cleaning stages.
 
 Examples from the audit report:
 
@@ -29,7 +29,7 @@ Examples from the audit report:
 - **237** phone issues fixed; **1,082** invalid phones remained after validation
 - **150** invalid emails were nulled rather than silently retained
 
-These figures are taken from the generated audit report; detection counts and fix counts are intentionally kept separate because not every detected issue was automatically repairable. citeturn29file0
+Detection counts and fix counts are intentionally kept separate because not every detected issue was automatically repairable.
 
 ## Visual
 
