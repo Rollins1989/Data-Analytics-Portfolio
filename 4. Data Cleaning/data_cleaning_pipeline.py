@@ -2,9 +2,13 @@
 
 import re
 from dataclasses import dataclass, asdict
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
+
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT_DIR = BASE_DIR / "outputs"
 
 
 @dataclass
@@ -81,5 +85,9 @@ def clean_data(df):
 if __name__ == "__main__":
     raw = generate_messy_data()
     cleaned, report = clean_data(raw)
-    cleaned.to_csv("cleaned_data.csv", index=False)
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    cleaned.to_csv(OUTPUT_DIR / "cleaned_data.csv", index=False)
+    (OUTPUT_DIR / "pipeline_run_report.json").write_text(
+        pd.Series(asdict(report)).to_json(indent=2)
+    )
     print(pd.Series(asdict(report)))
