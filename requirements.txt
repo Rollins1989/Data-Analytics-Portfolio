@@ -2,4 +2,5 @@ pandas
 numpy
 matplotlib
 openpyxl
+xlrd
 jupyter
