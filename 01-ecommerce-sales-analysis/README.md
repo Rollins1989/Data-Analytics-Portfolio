@@ -26,10 +26,6 @@ Analyze e-commerce transactions to understand revenue drivers, customer behavior
 - Mobile was the highest-revenue channel
 - West was the highest-revenue region
 
-## Business Interpretation
-
-The analysis converts transaction-level data into revenue, customer, channel, regional, and return KPIs that could support commercial decision-making. Because the dataset is synthetic, the findings demonstrate analytical technique rather than real business performance.
-
 ## Visuals
 
 ![Revenue by Category](outputs/revenue_by_category.png)
@@ -37,6 +33,10 @@ The analysis converts transaction-level data into revenue, customer, channel, re
 ![Revenue by Region](outputs/revenue_by_region.png)
 
 ![Revenue by Channel](outputs/revenue_by_channel.png)
+
+## Business Interpretation
+
+The analysis demonstrates how transaction-level data can be converted into revenue, customer, channel, regional, and return KPIs that support commercial decision-making. Because the dataset is synthetic, the findings are examples of analytical technique rather than claims about a real business.
 
 ## Technical Workflow
 
@@ -53,10 +53,10 @@ The analysis converts transaction-level data into revenue, customer, channel, re
 
 ## Project Structure
 
-- `notebooks/ecommerce_sales_analysis.ipynb` — exploratory analysis
+- `notebooks/ecommerce_sales_analysis.ipynb` — exploratory analysis notebook
 - `src/ecommerce_analysis.py` — reproducible analysis script
 - `data/sales_data.xls` — source dataset
-- `outputs/` — charts, CSV summaries, and JSON report
+- `outputs/` — summary tables, report and visualizations
 
 ## How to Run
 
