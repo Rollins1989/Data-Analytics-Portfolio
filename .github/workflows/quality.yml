@@ -1,0 +1,52 @@
+name: Portfolio Quality Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Compile Python source files
+        run: python -m compileall -q 01-ecommerce-sales-analysis 02-hr-employee-attrition 03-retail-business-intelligence 04-data-cleaning-pipeline 05-global-vaccination-dashboard 06-amazon-ppc-analytics
+
+      - name: Validate notebooks and repository paths
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          projects = [
+              Path("01-ecommerce-sales-analysis"),
+              Path("02-hr-employee-attrition"),
+              Path("03-retail-business-intelligence"),
+              Path("04-data-cleaning-pipeline"),
+              Path("05-global-vaccination-dashboard"),
+              Path("06-amazon-ppc-analytics"),
+          ]
+
+          for project in projects:
+              assert (project / "README.md").exists(), f"Missing README: {project}"
+              notebooks = list((project / "notebooks").glob("*.ipynb"))
+              assert notebooks, f"No notebook found: {project}"
+              for notebook in notebooks:
+                  with notebook.open(encoding="utf-8") as handle:
+                      data = json.load(handle)
+                  assert data.get("nbformat") == 4, f"Invalid notebook format: {notebook}"
+
+          print("Repository structure and notebook JSON validation passed.")
+          PY
